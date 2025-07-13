@@ -1,0 +1,91 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*Common style*/
+.clr{
+    color: #FD6E0A;
+}
+.bg-clr{
+    background-color: #FFF8F3;
+}
+.dark1{
+    color: #181818;
+}
+.dark2{
+    color: #474747;
+}
+.dark3{
+    color: #757575;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+}
+
+/* Nav style */
+header{
+   
+}
+header nav h3{
+    font-size: 45px;
+    font-weight: 900;
+}
+.nav-style{
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+     padding: 51px 225px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    font-size: 2em;
+}
+
+/* Header style */
+.header{
+    background-image: url("../images/developer.png"), url('../images/header_bg.png') ;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-div{
+    margin-right: 155px;
+}
+
+header div h4{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+header div h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.description{
+    font-size: 1.5em;
+}
